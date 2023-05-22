@@ -1,0 +1,1 @@
+web: java -jar build/libs/personal-1.jar --spring.profiles.active=prod

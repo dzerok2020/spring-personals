@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-chkci6u4dadfmsjqckpg-a.oregon-postgres.render.com:5432/so_tay_thu_chi_misa
+    username: so_tay_thu_chi_misa_user
+    password: 5TL5sS1nr0i4BuAJ1cz62COJk7RZqeGx

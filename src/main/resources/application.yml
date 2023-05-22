@@ -1,0 +1,18 @@
+server:
+  tomcat:
+    accesslog:
+      enabled: true
+  port: ${PORT:5000}
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  profiles:
+    active: dev
