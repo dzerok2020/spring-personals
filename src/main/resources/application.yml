@@ -2,7 +2,6 @@ server:
   tomcat:
     accesslog:
       enabled: true
-  port: ${PORT:5000}
 
 spring:
   jpa:
